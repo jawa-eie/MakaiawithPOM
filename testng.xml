@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LeafTaps" parallel="tests" thread-count="3" verbose="10">
+ 
+  <test name="Leads" parallel="classes">
+    <classes>
+      <class name="leaf.leads.CreateLead"/>
+     <!--  <class name="leaf.leads.EditLead"/> -->
+    </classes>
+  </test> <!-- Leads -->
+  
+<!--   <test name="Contacts" >
+    <classes>
+      <class name="leaf.contacts.CreateContact"/>   
+    </classes>
+  </test> Leads -->
+  
+</suite> <!-- LeafTaps -->
